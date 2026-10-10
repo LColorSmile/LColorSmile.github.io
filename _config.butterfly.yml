@@ -1,0 +1,79 @@
+favicon: https://avatars.githubusercontent.com/u/199755475?s=400&u=ce744dbf08861fcac8cac8c13540bc4cd52e66f6&v=4
+
+default_top_img: /img/hero-soft.svg
+index_img: /img/hero-soft.svg
+background: "#f7faf9"
+
+theme_color:
+  enable: true
+  main: "#6b9f98"
+  paginator: "#6b9f98"
+  button_hover: "#507f79"
+  text_selection: "#a8d7ce"
+  link_color: "#557f87"
+  hr_color: "#d2e7e1"
+  toc_color: "#6b9f98"
+  blockquote_padding_color: "#8dc1b8"
+  blockquote_background_color: "#f1faf7"
+  scrollbar_color: "#8dc1b8"
+  meta_theme_color_light: "#f7faf9"
+  meta_theme_color_dark: "#171d24"
+
+avatar:
+  img: https://avatars.githubusercontent.com/u/199755475?s=400&u=ce744dbf08861fcac8cac8c13540bc4cd52e66f6&v=4
+  effect: false
+
+social:
+  fab fa-github: https://github.com/LColorSmile || GitHub || '#24292e'
+
+subtitle:
+  enable: true
+  effect: true
+  source: false
+  sub:
+    - 可能会分享一些有用的东西
+
+index_layout: 3
+index_post_content:
+  method: 2
+  length: 300
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  scroll_percent: true
+
+aside:
+  enable: true
+  position: right
+  card_author:
+    enable: true
+    description: 西瓜真好吃
+    button:
+      enable: true
+      icon: fab fa-github
+      text: 我的 GitHub
+      link: https://github.com/LColorSmile
+  card_announcement:
+    enable: true
+    content: 欢迎来到浅浅笑微的博客。
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+post_meta:
+  post:
+    date_type: created
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+
+post_copyright:
+  enable: false
