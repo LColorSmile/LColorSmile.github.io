@@ -65,6 +65,10 @@ darkmode:
   button: true
   autoChangeMode: false
 
+post_meta:
+  post:
+    date_type: created
+
 menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
