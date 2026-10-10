@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>正在跳转到标签页 · 浅浅笑微的博客</title>
+  <script>
+    const tag = decodeURIComponent(location.hash.slice(1));
+    const path = tag && tag !== 'All'
+      ? '/tags/' + encodeURIComponent(tag) + '/'
+      : '/tags/';
+    location.replace(path);
+  </script>
+</head>
+<body><p>正在前往<a href="/tags/">标签页</a>。</p></body>
+</html>
